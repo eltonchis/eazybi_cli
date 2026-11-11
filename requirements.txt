@@ -1,0 +1,4 @@
+# requirements.txt
+# This module relies entirely on the Python Standard Library.
+# No external third-party packages (such as requests or pandas) are required.
+# Compatible with Python 3.9 or higher.
