@@ -40,11 +40,11 @@ git clone https://github.com
 Here is a quick guide on how to initialize the class and backup all definitions from your accounts:
 
 ```python
-from eazybi_cli import EazyBiCLI
+from eazybi_cli import EazyBiCli
 
 # 1. Initialize and authenticate (opens browser on first run if needed)
 # Leave blank for default profile, or specify your Private eazyBI / Jira URL
-instance = EazyBiCLI(eazybi_url="https://example.com")
+instance = EazyBiCli(eazybi_url="https://example.com")
 
 # 2. Get all accounts filtered by a specific keyword
 my_accounts = instance.get_accounts(keyword="Production")
